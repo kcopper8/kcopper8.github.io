@@ -1,5 +1,5 @@
 ---
-title: front end js 모듈 관리
+title: front end js 모듈 관리 공부
 date: 2016-03-27 22:28:40
 tags:
 ---
