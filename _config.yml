@@ -70,6 +70,3 @@ theme: zzoman2015
 deploy:
   type: git
   repo: https://github.com/kcopper8/kcopper8.github.io.git
-
-admin:
-  deployCommand: git
