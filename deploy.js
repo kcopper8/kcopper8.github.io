@@ -1,4 +1,4 @@
-var spawn = require('hexo-util/lib/spawn');
+var spawn = require('hexo-util').spawn ;
 var Hexo = require('hexo');
 var hexo = new Hexo(process.cwd(), {});
 
