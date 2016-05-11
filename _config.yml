@@ -68,5 +68,8 @@ theme: zzoman2015
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/kcopper8/kcopper8.github.io.git
+  type: source-git
+  repository: https://github.com/kcopper8/kcopper8.github.io.git
+  branch: source
+#  type: git
+#  repo: https://github.com/kcopper8/kcopper8.github.io.git
