@@ -62,3 +62,23 @@ deploy:
 ```
 
 결과는 단순했다. context 는 hexo 객체고(당연하네), arguments 는`_config.yml` 의 deployer 설정값이었는데, 문서에 적힌 대로였다(당연하군).
+
+조금 김이 샌 채로, git_push 를 deployer 로 등록했다.
+
+```
+var git_push = require('../../../hexo-source-deployer-git/lib/git_push.js');
+
+hexo.extend.deployer.register('source-git', function(args) {
+  return git_push({
+    path : this.base_dir,
+    repository : args.repository,
+    branch : args.branch
+  });
+});
+```
+실행했더니 push 되었다.
+
+... 한번에 되니 이상하네. 테스트도 만들었겠다, 딱히 안될 법 한 데는 없지만 되니까 정말 이상하네. 뭔가 생각 못한 게 있어서 막혀서 한참 삽질해야 될 것 같은데...
+
+일단 이게 되니, `git` deployer 도 원래대로 돌려놓고 한번에 양쪽으로 commit 하기를 시도해봐야겠다.
+
