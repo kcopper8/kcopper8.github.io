@@ -14,7 +14,7 @@ git_push 가 동작하므로, 마지막 단계가 남았다.
 
 최종적으로는 *Plugin* 으로 만들 생각이긴 하지만, 먼저 *Script* 방식으로 테스트해보고 나서 구성하는 순서를 밟을 예정이다.
 
-### hexo script 써보기
+### hexo script 로 deployer 등록하기
 
 우선 hexo deployer plugin 이 실행될 때 어떤 값들이 넘어오는지를 보는 단순 deployer script 를 추가해보기로 했다.  hexo 문서 중에 어떤 값이 넘어오는지 설명한 문서가 없는 것 같다.
 
@@ -82,3 +82,4 @@ hexo.extend.deployer.register('source-git', function(args) {
 
 일단 이게 되니, `git` deployer 도 원래대로 돌려놓고 한번에 양쪽으로 commit 하기를 시도해봐야겠다.
 
+됐다. 이상하네.
