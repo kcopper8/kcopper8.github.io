@@ -36,3 +36,10 @@ npm WARN notsup Not compatible with your operating system or architecture: fseve
 신기하다. 내가 만든 npm 모듈이 설치되었다!
 
 그럼 한번 실행시켜보자.
+
+됐다~ 가 아니었다. `scripts` 디렉토리에 있는 파일을 안 지우고 테스트 한 탓에 되는 것 처럼 보인 것 뿐이다. scripts 디렉토리 파일을 제거하고 실행해보니 안된다. plugins 문서를 좀 더 자세히 읽어보기로 했다.
+
+    You’ll also need to list your plugin as a dependency in the root package.json of your hexo instance in order for Hexo to detect and load it.
+
+그 외에도 package.json 에 dependency 로 추가되어 있어야 한다고 한다. 의존성을 추가하고 다시 실행시켜 보았다.
+
