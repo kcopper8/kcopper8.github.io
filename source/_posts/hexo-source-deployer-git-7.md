@@ -56,7 +56,7 @@ npm WARN notsup Not compatible with your operating system or architecture: fseve
 
 정리하는데 생각보다 시간이 오래 걸렸다. 다른 것들은 예상한 만큼 시간이 걸렸는데, GitHub 에 Repository 를 만들고 branch  를 어떻게 할까 생각하다가 시간이 많이 흘렀다.
 
-[hexo-source-deployer-git](https://github.com/kcopper8/hexo-source-deployer-git) repsitory 가 생겼다. 이제다 끝나간다. 이걸 Hexo 에다가 설치, 설정하고 commit 하면 된다!
+[hexo-source-deployer-git](https://github.com/kcopper8/hexo-source-deployer-git) repsitory 가 생겼다. 이제다 끝나간다. 이걸 Hexo 에다가 설치, 설정하고 commit 하면 된다! 됐다! 만세~!
 
 
 
