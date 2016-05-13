@@ -17,7 +17,7 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
-    "hexo-source-deployer-git": "file:///C:\\dev\\atom_project\\hexo-source-deployer-git",
+    "hexo-source-deployer-git": "git+https://github.com/kcopper8/hexo-source-deployer-git.git",
     "hexo-util": "^0.5.3"
   }
 }
