@@ -5,6 +5,7 @@ tags:
 ---
 [2 minute introduction to Rx](https://medium.com/@andrestaltz/2-minute-introduction-to-rx-24c8ca793877) 를 읽고 Observable 에 대해 감이 왔습니다. 영어공부를 겸해 번역해보았습니다.
 
+---
 # 2 분만에 하는 Rx 소개
 
 [내가 얼마 전에 쓴 튜토리얼](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)을 보셨나요? 너무 길죠? 맞습니다. [Rx](https://github.com/Reactive-Extensions/RxJS) 는 그리 어렵지 않습니다. 어쩌면 당신이 이미 스스로 만들어 쓰고 있는 것일 수도 있습니다. 다음을 읽어주세요.
