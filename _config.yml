@@ -73,3 +73,6 @@ deploy:
 - type: source-git
   repository: https://github.com/kcopper8/kcopper8.github.io.git
   branch: source
+
+exclude_generater:
+- rpg
