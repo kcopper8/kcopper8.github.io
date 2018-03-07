@@ -1,0 +1,17 @@
+title : Kcopper8
+description: 'Kcopper8 Blog'
+
+markdown: kramdown
+highlighter: rouge
+logo: false
+logo_image: "https://pbs.twimg.com/profile_images/834410339747897345/t7i-F1Q7_400x400.jpg"
+paginate: 15
+baseurl: /
+plugins: [jekyll-gist]
+permalink: /:year/:month/:day/:title
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      profile_image: "https://pbs.twimg.com/profile_images/834410339747897345/t7i-F1Q7_400x400.jpg"
